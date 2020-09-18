@@ -1,0 +1,32 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1>Welcome, {{user.username}}</h1>
+
+
+<h1>My Summer Reading list</h1>
+
+<ul>
+    {% for allItems in allItems %}
+    <li>{{allItems.title}}</li>
+    <!-- <li>{{allItems.content}}</li> -->
+    {% endfor %}
+</ul>
+<!-- 
+<form action="/addTask/" method="POST">{% csrf_token %}
+    <input type="text" name="content"/>
+    <input type="submit" value="Add"/>
+</form>
+
+<form action="/deleteBook/" method="DELETE">{% csrf_token %}
+    <input type="text" name="content"/>
+    <input type="submit" value="delete"/>
+</form>
+
+<form action="/updateBook/" method="PUT">{% csrf_token %}
+    <input type="text" name="content"/>
+    <input type="submit" value="update reading list"/>
+</form> -->
+
+
+{% endblock %} 
