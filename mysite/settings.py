@@ -41,11 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication.apps.AuthenticationConfig',
     'rest_framework',
-    'cors.apps.CorsConfig'
+    'cors.apps.CorsConfig',
+    'corsheaders',
 
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -53,12 +55,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+      
 ]
 
-MIDDLEWARE_CLASSES = (
-    'cors.cors.CorsMiddleware' 
-)
+CORS_ORIGIN_ALLOW_ALL = True
+
+# MIDDLEWARE_CLASSES = (
+#     'cors.cors.CorsMiddleware' 
+# )
 
 ROOT_URLCONF = 'mysite.urls'
 
