@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-import django_heroku
+# import django_heroku
 
 from pathlib import Path
 import os
@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'cors.apps.CorsConfig',
     'corsheaders',
-
 ]
 
 MIDDLEWARE = [
@@ -55,7 +54,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-      
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -148,4 +146,4 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'authentication.User'
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
