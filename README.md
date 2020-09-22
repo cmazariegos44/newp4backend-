@@ -33,8 +33,8 @@ The user types in a book they bought and write notes if they completed the book 
 
 ## MVP BACKEND - Timeline & Priority Matrix 
 
-|Deliverable	| Status	| Time Estimate | Actual Time
-| --- | :---: |  :---: | 
+|Deliverable	| Status	| Time Estimate | Actual Time| 
+| --- | :---: |  :---: |  :---: | 
 | Research ideas	| Complete 	| 2 hr | 2 hr| 
 | Setting up the database with Python | Complete  | 2 hr | 16 hr| 
 | Setting up models| Complete | 2 hr | 7hr| 
