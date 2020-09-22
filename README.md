@@ -35,11 +35,11 @@ The user types in a book they bought and write notes if they completed the book 
 
 |Deliverable	| Status	| Time Estimate | Actual Time
 | --- | :---: |  :---: | 
-| Research ideas	| Complete 	| 2 hr | 2 hr
-| Setting up the database with Python | Complete  | 2 hr | 16 hr
-| Setting up models| Complete | 2 hr | 7hr
-| Connect Frontend/Vue | Complete  | 2 hr | 5hr
-| Work on the front end | Complete | 10 hrs |	5hr
+| Research ideas	| Complete 	| 2 hr | 2 hr| 
+| Setting up the database with Python | Complete  | 2 hr | 16 hr| 
+| Setting up models| Complete | 2 hr | 7hr| 
+| Connect Frontend/Vue | Complete  | 2 hr | 5hr| 
+| Work on the front end | Complete | 10 hrs |	5hr| 
 
 
 
