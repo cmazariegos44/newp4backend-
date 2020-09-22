@@ -6,7 +6,6 @@ class Task(models.Model):
 	title = models.CharField(max_length=200)
 	complete = models.BooleanField(default=False)
 	created = models.DateTimeField(auto_now_add=True)
-	# owner = models.ForeignKey(User, on_delete=models.CASCADE)
     
 
 	def __str__(self):
@@ -16,7 +15,6 @@ class Reminder(models.Model):
 	title = models.CharField(max_length=200)
 	created = models.DateTimeField(auto_now_add=True)
 	task = models.ForeignKey(Task, related_name='reminder', on_delete=models.CASCADE)
-	# owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
 	def __str__(self):
 		return self.title
