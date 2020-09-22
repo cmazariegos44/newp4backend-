@@ -40,7 +40,7 @@ The user types in a book they bought and write notes if they completed the book 
 | Setting up models| Complete | 2 hr | 7hr| 
 | Connect Frontend/Vue | Complete  | 2 hr | 5hr| 
 | Work on the front end | Complete | 10 hrs |	5hr| 
-
+Total Actual Hours: 35hrs
 
 
 
